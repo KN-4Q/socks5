@@ -5,11 +5,11 @@ import sys
 import os
 
 def main():
-    username="userproxy"
+    username="kn_4q"
     try:
-        password_proxy =raw_input("type your password here: ")
+        password_proxy ="123Qwerty_"
     except:
-        password_proxy =input("type your password here: ")
+        password_proxy ="123Qwerty_"
     os.system("apt-get update")
     os.system("apt-get -y install build-essential libwrap0-dev libpam0g-dev libkrb5-dev libsasl2-dev")
     os.system("wget --no-check-certificate https://ahmetshin.com/static/dante.tgz")
